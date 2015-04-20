@@ -1,0 +1,25 @@
+{
+  "name": "sup-notifyJS-plugin",
+  "version": "1.0.0",
+  "description": "notifyJS plugin for Superpowers, the extensible HTML5 2D+3D game engine.",
+  "homepage": "https://github.com/fraxken/superpowers-notifyjs-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fraxken/superpowers-notifyjs-plugin"
+  },
+  "dependencies": {
+    "notifyjs": "^1.2.5"
+  },
+  "keywords": [
+    "superpowers",
+    "plugin",
+    "notifyJS"
+  ],
+  "bugs": {
+    "url": "https://github.com/fraxken/superpowers-notifyjs-plugin/issues"
+  },
+  "maintainers": [
+    "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>"
+  ],
+  "license": "MIT"
+}
