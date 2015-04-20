@@ -1,21 +1,21 @@
 # superpowers-nofityjs-plugin
 NotifyJS plugin for Superpowers, the extensible HTML5 2D+3D game engine.
 
+A handy wrapper for using the [Web Notifications API](http://www.w3.org/TR/notifications/). Notify.js aims to simplify requesting user permission and associated Web Notification API events, as well as providing a few extra callbacks and convenience methods.
+
 # Documentation
 
 ### Echo notification :
 
 ```javascript
-var myNotification = new Notify('Yo dawg!', {
+var myFirstNotification = new Notify('Hi there!', {
     body: 'This is an awesome notification',
-    notifyShow: onNotifyShow
+    notifyShow: function onNotifyShow() {
+        console.log('notification was shown!');
+    }
 });
 
-function onNotifyShow() {
-    console.log('notification was shown!');
-}
-
-myNotification.show();
+myFirstNotification.show();
 ```
 
 ### Find more here : 
