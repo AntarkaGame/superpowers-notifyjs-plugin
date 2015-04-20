@@ -10,7 +10,7 @@ A handy wrapper for using the [Web Notifications API](http://www.w3.org/TR/notif
 ```javascript
 var myFirstNotification = new Notify('Hi there!', {
     body: 'This is an awesome notification',
-    notifyShow: function onNotifyShow() {
+    notifyShow: function() {
         console.log('notification was shown!');
     }
 });
